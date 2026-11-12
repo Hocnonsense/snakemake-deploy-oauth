@@ -1,0 +1,9 @@
+[project]
+name = "snakemake-deploy-oauth"
+version = "0.1.0"
+description = "Tiny GitHub OAuth exchange for the Snakemake deploy webapp"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]

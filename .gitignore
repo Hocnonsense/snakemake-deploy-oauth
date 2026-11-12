@@ -1,0 +1,13 @@
+.pixi/*
+!.pixi/config.toml
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# The global gitignore excludes everything; allow the project files.
+!*.py
+!*.toml
+!*.md
+!*.lock
+!.gitignore

@@ -1,0 +1,12 @@
+[workspace]
+name = "snakemake-deploy-oauth"
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64"]
+version = "0.1.0"
+
+[dependencies]
+python = ">=3.12,<3.13"
+pytest = ">=8,<9"
+
+[tasks]
+test = "pytest -q"
